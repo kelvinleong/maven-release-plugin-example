@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/kelvinleong/maven-release-plugin-example.git</url>
 		<connection>scm:git:https://github.com/kelvinleong/maven-release-plugin-example.git</connection>
@@ -92,13 +92,6 @@
 						– the `releases` profile – to become active during the Release process. -->
 					<releaseProfiles>releases</releaseProfiles>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-scm-plugin</artifactId>
-						<version>1.8.1</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 		 </pluginManagement>
